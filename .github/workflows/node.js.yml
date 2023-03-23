@@ -61,3 +61,6 @@ jobs:
 
       - name: Run linter
         run: pnpm lint
+
+      - name: Run prettier --check
+        run: pnpm prettier --check
